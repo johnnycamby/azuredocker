@@ -1,0 +1,21 @@
+version: '3.4'
+
+services:
+  xplicitcarsstore:
+    #image: ${DOCKER_REGISTRY-}xplicitcarsstore
+    image: xplicitregistry.azurecr.io/xplicitcarsstore
+    build:
+      context: .
+      dockerfile: XplicitCarsStore/Dockerfile
+    depends_on:
+      - "xplicitcarssalesapi"
+    ports:
+      - "80:80"
+
+  xplicitcarssalesapi:
+    #image: ${DOCKER_REGISTRY-}xplicitcarssalesapi
+    image: xplicitregistry.azurecr.io/xplicitcarssalesapi
+    build:
+      context: .
+      dockerfile: XplicitCarsSalesApi/Dockerfile
+
