@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XplicitCarAzureAD", "Xplici
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XplicitCarsApiAuthAzureAD", "XplicitCarsApiAuthAzureAD\XplicitCarsApiAuthAzureAD.csproj", "{61B6D46B-727B-4435-B859-F4FBA4F6BF80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XplicitCarsAzureB2C", "..\XplicitCarsAzureB2C\XplicitCarsAzureB2C.csproj", "{1CAE4D3E-3BA9-4853-A234-2857316AD5F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XplicitCarsAzureB2C", "XplicitCarsAzureB2C\XplicitCarsAzureB2C.csproj", "{B8BAFAD3-6A86-4B30-97FE-C36D26BB4B21}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,10 +41,10 @@ Global
 		{61B6D46B-727B-4435-B859-F4FBA4F6BF80}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61B6D46B-727B-4435-B859-F4FBA4F6BF80}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61B6D46B-727B-4435-B859-F4FBA4F6BF80}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1CAE4D3E-3BA9-4853-A234-2857316AD5F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1CAE4D3E-3BA9-4853-A234-2857316AD5F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1CAE4D3E-3BA9-4853-A234-2857316AD5F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1CAE4D3E-3BA9-4853-A234-2857316AD5F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8BAFAD3-6A86-4B30-97FE-C36D26BB4B21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8BAFAD3-6A86-4B30-97FE-C36D26BB4B21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8BAFAD3-6A86-4B30-97FE-C36D26BB4B21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8BAFAD3-6A86-4B30-97FE-C36D26BB4B21}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

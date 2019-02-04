@@ -1,0 +1,16 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+@if (User.Identity.IsAuthenticated)
+{
+<ul>
+    @foreach (var claim in User.Claims)
+    {
+        <li>@claim.Type</li>
+        <li>@claim.Value</li>
+    }
+</ul>
+}
